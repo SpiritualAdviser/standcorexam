@@ -1,0 +1,249 @@
+{ "frames": {
+   "plane 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 1.aseprite": {
+    "frame": { "x": 150, "y": 0, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 2.aseprite": {
+    "frame": { "x": 300, "y": 0, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 3.aseprite": {
+    "frame": { "x": 450, "y": 0, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 4.aseprite": {
+    "frame": { "x": 600, "y": 0, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 5.aseprite": {
+    "frame": { "x": 0, "y": 150, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 6.aseprite": {
+    "frame": { "x": 150, "y": 150, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 7.aseprite": {
+    "frame": { "x": 300, "y": 150, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 8.aseprite": {
+    "frame": { "x": 450, "y": 150, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 9.aseprite": {
+    "frame": { "x": 600, "y": 150, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 10.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 11.aseprite": {
+    "frame": { "x": 150, "y": 300, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 12.aseprite": {
+    "frame": { "x": 300, "y": 300, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 13.aseprite": {
+    "frame": { "x": 450, "y": 300, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 14.aseprite": {
+    "frame": { "x": 600, "y": 300, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 15.aseprite": {
+    "frame": { "x": 0, "y": 450, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 16.aseprite": {
+    "frame": { "x": 150, "y": 450, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 17.aseprite": {
+    "frame": { "x": 300, "y": 450, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 18.aseprite": {
+    "frame": { "x": 450, "y": 450, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 19.aseprite": {
+    "frame": { "x": 600, "y": 450, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 20.aseprite": {
+    "frame": { "x": 600, "y": 450, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 21.aseprite": {
+    "frame": { "x": 0, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 22.aseprite": {
+    "frame": { "x": 0, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 23.aseprite": {
+    "frame": { "x": 150, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 24.aseprite": {
+    "frame": { "x": 150, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 25.aseprite": {
+    "frame": { "x": 300, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 26.aseprite": {
+    "frame": { "x": 300, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   },
+   "plane 27.aseprite": {
+    "frame": { "x": 450, "y": 600, "w": 150, "h": 150 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 150, "h": 150 },
+    "sourceSize": { "w": 150, "h": 150 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.5-x64",
+  "image": "plane.png",
+  "format": "RGBA8888",
+  "size": { "w": 750, "h": 750 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "fly", "from": 0, "to": 16, "direction": "forward", "color": "#000000ff" },
+   { "name": "blow", "from": 17, "to": 27, "direction": "forward", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "engin", "opacity": 255, "blendMode": "normal" },
+   { "name": "body", "opacity": 255, "blendMode": "normal" },
+   { "name": "bow", "opacity": 255, "blendMode": "normal" },
+   { "name": "rt", "opacity": 255, "blendMode": "normal" },
+   { "name": "lt", "opacity": 255, "blendMode": "normal" },
+   { "name": "d", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
