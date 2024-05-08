@@ -3,7 +3,7 @@
 const startGame = (gameName) => {
     switch (gameName) {
         case 'playSpaceShooter':
-            window.open('./src/spaceShooterBuild/index.html','_self')
+            window.open('./games/spaceShooter/index.html','_self')
             break;
 
         default:
