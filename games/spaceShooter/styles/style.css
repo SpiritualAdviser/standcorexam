@@ -1092,7 +1092,7 @@ body {
     font-weight: bold;
     pointer-events: all;
     width: 100px;
-    height: 40px;
+    height: 39px;
     grid-area: butttonNo;
 }
 
@@ -1107,7 +1107,7 @@ body {
     font-weight: bold;
     pointer-events: all;
     width: 100px;
-    height: 40px;
+    height: 39px;
     grid-area: butttonOk;
 }
 
