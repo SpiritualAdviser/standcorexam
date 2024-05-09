@@ -2,29 +2,32 @@ body {
     margin: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(27, 27, 27);
 }
 
 .mainBlock {
     position: relative;
     display: grid;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
+    padding: 2px;
+    min-height: 99vh;
+    grid-template-columns: minmax(min-content, 90vw);
+    grid-template-rows: max-content max-content auto max-content;
     grid-template-areas:
         "header"
-        "meny "
-        "content"
+        "meny"
+        "contentGames"
         "info";
     justify-content: center;
-    justify-items: stretch;
-    align-content: center;
+    justify-items: center;
+    align-items: start;
+    align-content: stretch;
 }
 
 .header {
     position: relative;
     display: grid;
     grid-area: header;
+    width: 100%;
     top: 0px;
     left: 0px;
     background-color: #cdd6ff;
@@ -41,7 +44,8 @@ body {
     padding: 5px;
     top: 0px;
     left: 0px;
-    color: black;
+    color: #3d0a2d;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
 }
@@ -62,45 +66,57 @@ body {
 
 .content {
     position: relative;
-    grid-area: content;
-    height: 80vh;
+    width: 100%;
+    height: 99%;
+    grid-area: contentGames;
     display: grid;
-    padding: 10px;
-    background-color: #a2b3ff;
+    padding: 10px 0px 10px;
+    background: linear-gradient(180deg, #e7ecff, #b5c4ff);
     border: 0px solid;
-    border-radius: 0px 0px 14px 14px;
-    justify-content: center;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, 220px);
+    grid-template-rows: repeat(auto-fill, 185px);
     justify-items: center;
-    align-content: space-between;
+    justify-content: center;
+    align-content: stretch;
+    align-items: start;
 }
 
 .headerGamesText {
     position: relative;
-    left: 0px;
+    padding: 5px;
     top: 0px;
-    font-size: 20px;
+    left: 0px;
+    color: #3d0a2d;
     font-weight: bold;
-    color: #430369;
+    font-size: 16px;
+    text-align: center;
 }
 
-.spaseShoterBlock {
+.spaseShooterBlock {
     position: relative;
     display: flex;
-    background-color: #b4eeff;
     border: 0px solid;
-    border-radius: 5px;
+    border-radius: 15px;
+    background: linear-gradient(#4700ff26, #6b83d9);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     padding: 5px;
 }
+.logoGame{
+    position: relative;
+}
+
+.spaseShoterBlock:hover {
+    background: linear-gradient(#ff000026, #6b83d9);
+}
 
 .spaceShooterCollages {
     position: relative;
-    border-radius: 5px;
-    padding: 5px;
-
+    border-radius: 15px;
+    padding: 6px;
 }
 
 .playSpaceShooterButton {
@@ -109,5 +125,39 @@ body {
     height: 25px;
     border: 2px solid #4a2261;
     background-color: #b67fd7;
+    font-size: large;
+    font-weight: bold;
+    color: #120669;
     border-radius: 5px;
+    filter: drop-shadow(1px 1px 0px black);
+}
+.playSpaceShooterButton:hover {
+    background: linear-gradient(#ff000026, #6b83d9);
+    filter: drop-shadow(1px 1px 0px rgb(247, 141, 141));
+}
+
+.infoBlock {
+    position: relative;
+    grid-area: info;
+    display: flex;
+    width: 100%;
+    height: 25px;
+    border-radius: 0px 0px 14px 14px;
+    background-color: #6c80db;
+    border: 0px solid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.infoText {
+    position: relative;
+    padding: 5px;
+    top: 0px;
+    left: 0px;
+    color: #3d0a2d;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
 }
