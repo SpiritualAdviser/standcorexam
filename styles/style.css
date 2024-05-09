@@ -131,6 +131,7 @@ body {
     text-align: center;
     border-radius: 5px;
     filter: drop-shadow(1px 1px 0px black);
+    user-select: none;
 }
 .playSpaceShooterButton:hover {
     background: linear-gradient(#ff000026, #6b83d9);
