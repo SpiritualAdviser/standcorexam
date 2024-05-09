@@ -1139,9 +1139,10 @@ body {
     height: 35px;
 }
 
-.popupStartCounter {
+.popupDefaultText {
     position: relative;
-    font-size: 15vw;
+    text-align: center;
+    font-size: 14vw;
     color: rgb(109 234 255);
 }
 
