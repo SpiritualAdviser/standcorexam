@@ -895,9 +895,9 @@ body {
 
 .placeToFlyPlane {
     position: absolute;
-    top: 60px;
+    top: 75px;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 75px);
     pointer-events: visible;
 }
 
