@@ -352,7 +352,7 @@ body {
     top: 0px;
 }
 
-.planeLiveContainer {
+.planeLifeContainer {
     position: absolute;
     grid-area: g1;
     left: 0px;
@@ -395,7 +395,7 @@ body {
     top: 4px;
 }
 
-.playerLiveText {
+.playerLifeText {
     position: absolute;
     top: 13px;
     left: 17px;
@@ -406,7 +406,7 @@ body {
     font-weight: bold;
 }
 
-.playerLiveBg {
+.playerLifeBg {
     position: relative;
     top: 0px;
     left: 0px;
@@ -417,7 +417,7 @@ body {
     filter: drop-shadow(0px 1px 6px black);
 }
 
-.playerLiveClose {
+.playerLifeClose {
     /* pointer-events: all; */
     filter: brightness(0.2);
     /* color: #11fff6; */
@@ -1119,7 +1119,7 @@ body {
     height: 100%;
 }
 
-.playerByLiveContainer {
+.playerByLifeContainer {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -1162,7 +1162,7 @@ body {
     position: absolute;
 }
 
-.liveBottonShop {
+.lifeBottonShop {
     position: relative;
     width: 200px;
     height: 70px;
