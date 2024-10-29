@@ -78,7 +78,7 @@ audio {
     background: linear-gradient(180deg, #e7ecff, #b5c4ff);
     border: 0px solid;
     grid-gap: 12px;
-    grid-template-columns: repeat(auto-fill, 259px);
+    grid-template-columns: repeat(auto-fit, 259px);
     grid-template-rows: 
     min-content 
     min-content ;
