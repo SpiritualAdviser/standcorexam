@@ -1,10 +1,6 @@
 html,
 body {
     margin: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(27, 27, 27);
-    overflow: hidden;
 }
 
 .mainBlock {
@@ -12,22 +8,32 @@ body {
     position: absolute;
     display: grid;
     width: 100%;
-    min-height: 97%;
-    grid-template-columns: minmax(min-content, 90vw);
-    grid-template-rows: max-content max-content auto max-content;
+    min-height: 100%;
+    background: linear-gradient(180deg, #ffffff, #d2d7ff);
+    grid-template-rows: max-content max-content max-content auto max-content;
     grid-template-areas:
+        "myName"
         "header"
         "headerMyWorks"
         "content"
         "info";
     justify-content: center;
-    top: 3px;
 }
 
 audio {
     width: 250px;
     height: 54px;
     scale: 0.8;
+}
+
+.asideMyName {
+    position: relative;
+    display: grid;
+    grid-area: myName;
+    width: 100%;
+    justify-content: start;
+    justify-items: start;
+    padding: 10px 0px 8px 10px;
 }
 
 .header {
@@ -37,9 +43,6 @@ audio {
     width: 100%;
     top: 0px;
     left: 0px;
-    background-color: #fdffeb;
-    border: 0px solid;
-    border-radius: 14px 14px 0px 0px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -51,10 +54,11 @@ audio {
     padding: 5px;
     top: 0px;
     left: 0px;
-    color: #3d0a2d;
-    font-weight: bold;
+    color: #3F51B5;
+    /* color: #3d0a2d; */
     font-size: 16px;
     text-align: center;
+    font-family: math;
 }
 
 .asideMyWorks {
@@ -63,7 +67,7 @@ audio {
     display: flex;
     width: 100%;
     height: 25px;
-    background-color: #6c80db;
+    background-color: #6b83d9;
     border: 0px solid;
     flex-direction: row;
     justify-content: center;
@@ -78,7 +82,6 @@ audio {
     grid-area: content;
     display: grid;
     padding: 10px 0px 10px;
-    background: linear-gradient(180deg, #e7ecff, #b5c4ff);
     border: 0px solid;
     grid-gap: 12px;
     grid-template-columns: repeat(auto-fit, 259px);
@@ -143,6 +146,14 @@ audio {
     text-align: center;
 }
 
+.cardText {
+    position: relative;
+    color: #3F51B5;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
 .spaseShooterBlock {
     position: relative;
     display: flex;
@@ -174,20 +185,26 @@ audio {
     position: relative;
     width: 100px;
     height: 25px;
-    border: 2px solid #4a2261;
-    background-color: #b67fd7;
+    background-color: #d0d7f0;
     font-size: large;
     font-weight: bold;
-    color: #120669;
+    color: #673AB7;
     text-align: center;
     border-radius: 5px;
-    filter: drop-shadow(1px 1px 0px black);
     user-select: none;
 }
 
 .playSpaceShooterButton:hover {
-    background: linear-gradient(#ff000026, #6b83d9);
-    filter: drop-shadow(1px 1px 0px rgb(247, 141, 141));
+    background: #f0cdff;
+    color: #35146e;
+}
+
+.nameText {
+    position: relative;
+    color: #3F51B5;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
 }
 
 .infoBlock {
@@ -195,9 +212,9 @@ audio {
     grid-area: info;
     display: flex;
     width: 100%;
-    height: 25px;
-    border-radius: 0px 0px 14px 14px;
-    background-color: #6c80db;
+    height: 30px;
+    /* border-radius: 0px 0px 14px 14px; */
+    background-color: #6b83d9;
     border: 0px solid;
     flex-direction: row;
     justify-content: center;
