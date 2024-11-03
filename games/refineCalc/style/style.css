@@ -16,7 +16,7 @@ body {
 
 .minerals {
     display: grid;
-    width: 300px;
+    width: max-content;
     gap: 5px;
     align-content: center;
     justify-items: end;
