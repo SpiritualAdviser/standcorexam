@@ -7,7 +7,7 @@ const tradeTax = {
 
 const itemsTable = document.getElementById('items');
 const calculateButton = document.getElementById('calculateButton');
-const tbody = itemsTable.children[2];
+const tableBody = itemsTable.children[2];
 
 const calculatePrice = (item, rowNameItem, rowBuy, rowSale) => {
     let rezaltBuy = 0;
@@ -27,12 +27,13 @@ const calculatePrice = (item, rowNameItem, rowBuy, rowSale) => {
     rezaltSale = rezaltSale - (rezaltSale / 100 * tradeTax.saleTax);
 
     rowNameItem.innerText = item.name;
-    rowBuy.innerText = rezaltBuy;
-    rowSale.innerText = rezaltSale;
+    rowBuy.innerText = rezaltBuy.toFixed(2);
+    rowSale.innerText = rezaltSale.toFixed(2);
     return
 }
 
 const createTable = () => {
+    tableBody.innerHTML = '';
 
     itemsArray.forEach(item => {
 
@@ -51,7 +52,7 @@ const createTable = () => {
         line.append(rowNameItem);
         line.append(rowBuy);
         line.append(rowSale);
-        tbody.append(line);
+        tableBody.append(line);
     });
     return
 }
