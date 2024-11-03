@@ -1,9 +1,9 @@
 
 
-const startGame = (gameName) => {
-    switch (gameName) {
+const buttonHandler = (buttonName) => {
+    switch (buttonName) {
         case 'playSpaceShooter':
-            window.open('./games/spaceShooter/index.html','_self')
+            window.open('./games/spaceShooter/index.html', '_self')
             break;
 
         default:
@@ -13,5 +13,5 @@ const startGame = (gameName) => {
 }
 
 document.addEventListener('click', (event) => {
-    startGame(event.target.name);
+    buttonHandler(event.target.name);
 })

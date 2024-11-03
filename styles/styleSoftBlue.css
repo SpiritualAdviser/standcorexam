@@ -25,7 +25,7 @@ body {
     display: grid;
     grid-area: myName;
     width: 100%;
-    background: #253665;
+    background: #2b4171;
     justify-content: start;
     justify-items: start;
     padding: 10px 0px 8px 0px;
@@ -55,7 +55,7 @@ body {
     position: relative;
     display: grid;
     grid-area: header;
-    background: #3e5b9d;
+    background: #3f599f;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -102,7 +102,7 @@ body {
     display: flex;
     height: 300px;
     border: 0px solid;
-    border-radius: 6px;
+    border-radius: 15px;
     background: #c5cbe3;
     flex-direction: column;
     justify-content: center;
@@ -121,7 +121,7 @@ body {
 
 .hrefText {
     position: relative;
-    color: #ffdc98;
+    color: #efe1bb;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
