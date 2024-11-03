@@ -6,6 +6,10 @@ const buttonHandler = (buttonName) => {
             window.open('./games/spaceShooter/index.html', '_self')
             break;
 
+        case 'refineCalc':
+            window.open('./games/refineCalc/index.html', '_self')
+            break;
+
         default:
             break;
     }

@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <title>eve refine calc</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+<body>
+
+    <main class="mainBlock">
+
+        <aside class="minerals">
+            <label class="labelMinerals" id="isogen">isogen buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="452.1">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="441.1">
+            </label>
+
+            <label class="labelMinerals" id="megacyte">megacyte buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="5147">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="4994">
+            </label>
+
+            <label class="labelMinerals" id="mexallon">mexallon buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="69.85">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="68.77">
+            </label>
+
+            <label class="labelMinerals" id="nocxium">nocxium buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="1063">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="1040">
+            </label>
+
+            <label class="labelMinerals" id="pyerite">pyerite buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="10.24">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="9.86">
+            </label>
+
+            <label class="labelMinerals" id="tritanium">tritanium buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="4.4">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="4.33">
+            </label>
+
+            <label class="labelMinerals" id="zydrine">zydrine buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="1594">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="1567">
+            </label>
+
+            <label class="labelMinerals" id="morphite">morphite buy-sale
+                <input class="inputMinerals" type="number" name="buy" required size="3" value="70940">
+                <input class="inputMinerals" type="number" name="sale" required size="3" value="67710">
+            </label>
+        </aside>
+
+        <button class="calculateButton" id="calculateButton">посчитать</button>
+
+        <table class="items" id="items">
+            <caption>точка безубыточности</caption>
+            <thead>
+                <tr class="line">
+                    <th class="thLine">название модуля</th>
+                    <th class="thLine">цена продажи ордером</th>
+                    <th class="thLine">цена продажи немедленно</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>итого</td>
+                    <td>---</td>
+                </tr>
+
+            </tfoot>
+
+        </table>
+    </main>
+
+</body>
+<script type="module" src="refineCalc.js"></script>
+</head>
+
+</html>

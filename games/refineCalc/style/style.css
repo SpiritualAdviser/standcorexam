@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #f5eddd;
+}
+
+.mainBlock {
+    display: grid;
+    padding: 5px;
+    width: 97%;
+    gap: 5px;
+    align-content: center;
+    justify-items: start;
+    align-items: start;
+    justify-content: start;
+}
+
+.minerals {
+    display: grid;
+    width: 300px;
+    gap: 5px;
+    align-content: center;
+    justify-items: end;
+    align-items: start;
+    padding: 5px;
+    justify-content: start;
+}
+
+.calculateButton {
+    width: 100px;
+    height: 30px;
+}
+
+.items {
+    border: 5px solid #ff8c2e;
+    font-size: small;
+}
+
+.line {
+    background-color: aliceblue;
+}
+
+.thLine {
+    border: 2px solid #3a322b;
+}
+
+.inputMinerals {
+    background-color: #d1f4ff;
+    width: 80px
+}
+
+.labelMinerals{
+    font-size: medium;
+}
