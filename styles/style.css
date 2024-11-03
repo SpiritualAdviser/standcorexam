@@ -189,3 +189,9 @@ audio {
     border-radius: 15px;
     padding: 6px;
 }
+
+.refineCalcImage {
+    position: relative;
+    border-radius: 15px;
+    padding: 6px;
+}
